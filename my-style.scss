@@ -1,0 +1,113 @@
+/* insert bourbon, variables, mixins, and layouts */
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+a {
+/*  color: #3e3947;*/
+  text-decoration: none;
+  color:#000;
+
+}
+
+a:hover {
+    color:white;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --------------------------------
+
+First Page Style
+
+-------------------------------- */
+
+.main {
+    background-image:url("tea-party.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    min-height: 100%;
+    min-width: 100%;
+
+
+}
+
+.intro {
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15%;
+
+}
+
+
+hr {
+   background-color: #000;
+    border: 0 none;
+    height: .1em;
+    top:0;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-size:2.5em;
+    margin-bottom:0;
+}
+
+#first-letter{
+    font-size: 1.5em;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top:0;
+    letter-spacing: 5px;
+
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+li {
+    display:inherit;
+    padding-top: 5px;
+    font-family:"Century Schoolbook", serif;
+
+}
+
+#chapter-number {
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
